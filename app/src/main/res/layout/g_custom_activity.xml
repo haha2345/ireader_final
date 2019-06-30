@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context=".g_custom"
+
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="男生"
+        android:textSize="20dp"/>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/g_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:src="@drawable/abc"
+        android:layout_gravity="left">
+    </ImageView>
+
+        <Button
+            android:id="@+id/g_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="追书最热帮Top1"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"
+            />
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abc"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="好评榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abc"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="热搜榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abd"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="本周潜力榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abf"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="读者保存率"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abe"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="追书完结版"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abh"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VIP排行榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abg"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="别人家的排行榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="女生"
+        android:textSize="20dp"/>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abc"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="追书最热帮Top1"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"
+            />
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abc"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="好评榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abc"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="热搜榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abd"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="本周潜力榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abf"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="读者保存率"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abe"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="追书完结版"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abh"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="VIP排行榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abg"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="别人家的排行榜"
+            android:textColor="#00f"
+            android:textSize="24sp"
+            android:background="@drawable/bg"/>
+    </FrameLayout>
+</LinearLayout>
+</ScrollView>
