@@ -8,13 +8,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
 public class g_search extends AppCompatActivity {
-    private SearchView  mSearch=null;
+    /*private SearchView  mSearch=null;
     private ListView mListview=null;
     private String[] mDates={"重生都市","刑警荣耀","我的老妈是土豪"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.g_search_activity);
+        //setContentView(R.layout.g_search_activity);
 
         mSearch=(SearchView)findViewById(R.id.searchvied);
         mListview=(ListView)findViewById(R.id.Listviewa);
@@ -43,5 +43,5 @@ public class g_search extends AppCompatActivity {
             }
         });
 
-    }
+    }*/
 }
