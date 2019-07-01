@@ -9,8 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class w_main_pageActivity extends AppCompatActivity {
     private TextView mTextMessage;
@@ -74,7 +76,36 @@ public class w_main_pageActivity extends AppCompatActivity {
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
-    private void switchFragment(int lastfragment,int index)
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {//新建三个小点
+        getMenuInflater().inflate(R.menu.w_menu,menu);
+        return true;
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.w_menu_item1:
+                Toast.makeText(this,"item1",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.w_menu_item2:
+                Toast.makeText(this,"item2",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.w_menu_item3:
+                Toast.makeText(this,"item3",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.w_menu_item4:
+                Toast.makeText(this,"item4",Toast.LENGTH_SHORT).show();
+                break;
+                default:
+
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private void switchFragment(int lastfragment, int index)//选择fragment
     {
         FragmentTransaction transaction =getSupportFragmentManager().beginTransaction();
         transaction.hide(fragments[lastfragment]);//隐藏上个Fragment

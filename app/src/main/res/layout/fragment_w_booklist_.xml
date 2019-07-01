@@ -1,16 +1,275 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:fillViewport="true"
     android:layout_height="match_parent"
-    tools:context=".w_booklist_Fragment">
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="hhhhh" />
+        android:orientation="vertical"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contextClickable="true"
+            android:padding="5px">
+
+            <ImageView
+                android:id="@+id/g_img"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_txt1"></ImageView>
 
 
-</LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginBottom="30dp"
+                android:text="天极垠"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="35dp"
+                android:text="上古时期，万物初生，灵有缘成形。 而，形生力、力生智。终，灵物生、神眷世界。 后，上古灭、"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/w_book_btn1"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_txt2"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginBottom="30dp"
+                android:text="带着仓库到大宋"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="35dp"
+                android:text="带着仓库系统穿越北宋，开始一段精彩曲折，与梁山好汉携手开始一段前途难料的生存救亡之旅。"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/w_book_btn2"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_txt3"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginBottom="30dp"
+                android:text="我不会武功"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="35dp"
+                android:text="穿越异界，身怀全能武侠系统，成为了史上最极品的小世子。"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/w_book_btn3"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_txt5"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginBottom="30dp"
+                android:text="到地球去"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="35dp"
+                android:text="得知天意的陆千尘拔剑向天，率领人类开启了艰辛的星际大迁徙。"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/w_book_btn4"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_txt6"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginBottom="30dp"
+                android:text="帝道独尊"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="35dp"
+                android:text="仙命少年从弱小中崛起，一步步踏向宇宙星海，战万界，伐仙穹……"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/w_book_btn5"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_txt4"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginBottom="30dp"
+                android:text="卓岳的修仙日常"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="35dp"
+                android:text="卓岳意外踏入修仙界，卷入修士与妖魔之间的百年血战。自此之后，拳打妖魔，脚踢邪修，走上人生巅"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/w_book_btn6"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <Button
+                android:id="@+id/w_btn2read"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="查看本地小说"
+                android:textSize="20sp"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"></FrameLayout>
+    </LinearLayout>
+</ScrollView>

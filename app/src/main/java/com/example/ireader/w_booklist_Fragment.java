@@ -1,6 +1,7 @@
 package com.example.ireader;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -10,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 
@@ -18,7 +20,13 @@ import android.widget.Toast;
  */
 public class w_booklist_Fragment extends Fragment {
 
-    private Button btn;
+    Button w_btn1;
+    Button w_btn2;
+    Button w_btn3;
+    Button w_btn4;
+    Button w_btn5;
+    Button w_btn6;
+
 
     public w_booklist_Fragment() {
         // Required empty public constructor
@@ -28,19 +36,51 @@ public class w_booklist_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_w_booklist_, container, false);
 
-        return inflater.inflate(R.layout.fragment_w_booklist_, container, false);
+
+        return view;
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        btn=getActivity().findViewById(R.id.button1);
-        btn.setOnClickListener(new View.OnClickListener() {
+        init();
+
+        w_btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(),"Fragment1",Toast.LENGTH_SHORT).show();            }
+                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                startActivity(intent);
+            }
         });
+        w_btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                startActivity(intent);
+            }
+        });
+        w_btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
+
+    private void init() {
+        w_btn1 = getActivity().findViewById(R.id.w_book_btn1);
+        w_btn2 = getActivity().findViewById(R.id.w_book_btn2);
+        w_btn3 = getActivity().findViewById(R.id.w_book_btn3);
+        w_btn4 = getActivity().findViewById(R.id.w_book_btn4);
+        w_btn5 = getActivity().findViewById(R.id.w_book_btn5);
+        w_btn6 = getActivity().findViewById(R.id.w_book_btn6);
+
+    }
+
 }
+

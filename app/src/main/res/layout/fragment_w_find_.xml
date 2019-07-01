@@ -1,14 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:fillViewport="true"
     android:layout_height="match_parent"
-    tools:context=".w_find_Fragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
 
-</LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contextClickable="true"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="20dp"
+                android:src="@drawable/w_find4"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:text="排行榜"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_next"></ImageView>
+
+            <Button
+                android:id="@+id/w_find1"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contextClickable="true"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="20dp"
+                android:src="@drawable/w_find1"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:text="主题书单"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_next"></ImageView>
+
+            <Button
+                android:id="@+id/w_find2"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contextClickable="true"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="20dp"
+                android:src="@drawable/w_find2"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:text="分类"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_next"></ImageView>
+
+            <Button
+                android:id="@+id/w_find3"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:contextClickable="true"
+            android:padding="5px">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="left"
+                android:adjustViewBounds="true"
+                android:padding="20dp"
+                android:src="@drawable/w_find3"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:text="有声小说"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:src="@drawable/w_next"></ImageView>
+
+            <Button
+                android:id="@+id/w_find4"
+                style="@style/Animation.Design.BottomSheetDialog"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#00FFFFFF"
+                android:foreground="@drawable/w_shape"
+                android:text="" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
