@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.ireader">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -21,8 +22,7 @@
         <activity android:name=".g_grid" />
         <activity android:name=".g_item" />
         <activity android:name=".g_custom"/>
-        <activity android:name=".g_search">
-        <activity android:name=".g_search" />
+        <activity android:name=".g_search"/>
         <activity android:name=".g_leibiao"/>
         <activity
             android:name=".w_main_pageActivity"
@@ -63,12 +63,6 @@
             </intent-filter>
         </activity>
 
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-
-        </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".MoreDisplayActivity" />
     </application>

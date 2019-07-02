@@ -1,6 +1,7 @@
 package com.example.ireader;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -39,14 +40,30 @@ public class w_find_Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {//调用这个
         super.onActivityCreated(savedInstanceState);
         init();
+        w_btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_custom.class);
+                startActivity(intent);
+            }
+        });
+
+        w_btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_fenlei.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 
     private void init(){
         w_btn1=getActivity().findViewById(R.id.w_find1);
-        w_btn2=getActivity().findViewById(R.id.w_find1);
-        w_btn3=getActivity().findViewById(R.id.w_find1);
-        w_btn4=getActivity().findViewById(R.id.w_find1);
+        w_btn2=getActivity().findViewById(R.id.w_find2);
+        w_btn3=getActivity().findViewById(R.id.w_find3);
+        w_btn4=getActivity().findViewById(R.id.w_find4);
 
     }
 }
