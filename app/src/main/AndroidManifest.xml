@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".x_zhonghepinglun3"></activity>
+        <activity android:name=".g_huadong3"></activity>
+        <activity android:name=".g_huadong2" />
+        <activity android:name=".g_huadong1" />
+        <activity android:name=".x_zhonghepinglun3" />
         <activity android:name=".x_zhonghepinglun2" />
         <activity android:name=".x_zhonghepinglun" />
         <activity android:name=".x_zhonghepinglun1" />
