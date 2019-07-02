@@ -3,12 +3,17 @@ package com.example.ireader;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
+
+import com.bifan.txtreaderlib.ui.HwTxtPlayActivity;
 
 public class g_ziye extends AppCompatActivity {
 
+    Button g_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,6 +63,13 @@ public class g_ziye extends AppCompatActivity {
             }
         });
 
+        g_btn=findViewById(R.id.g_btn1);
+        g_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                HwTxtPlayActivity.loadTxtFile(g_ziye.this, (Environment.getExternalStorageDirectory() + "/1.txt"));
+            }
+        });
 
 
     }

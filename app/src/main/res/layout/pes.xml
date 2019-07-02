@@ -7,7 +7,7 @@
         android:id="@+id/txt_tv"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="20pt"
+        android:textSize="16dp"
         android:layout_weight="1"
         />
 </LinearLayout>

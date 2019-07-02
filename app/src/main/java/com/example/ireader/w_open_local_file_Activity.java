@@ -36,7 +36,7 @@ public class w_open_local_file_Activity extends AppCompatActivity {
 
 
     private static final int MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE = 0x01;
-    private String FilePath = Environment.getExternalStorageDirectory() + "/test4.txt";
+    private String FilePath = Environment.getExternalStorageDirectory() + "/1.txt";
     private Boolean Permit = false;
     private EditText mEditText;
 

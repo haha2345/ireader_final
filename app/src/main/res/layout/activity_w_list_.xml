@@ -4,16 +4,17 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/w_textView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="手机内txt：" />
     <ListView
         android:id="@+id/lv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="62dp" >
+        
+        android:layout_below="@+id/w_textView1"
+        android:layout_marginTop="10dp" >
     </ListView>
 </RelativeLayout>

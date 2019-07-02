@@ -57,21 +57,42 @@ public class w_booklist_Fragment extends Fragment {
         w_btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                Intent intent = new Intent(getActivity(), g_ziye.class);
                 startActivity(intent);
             }
         });
         w_btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                Intent intent = new Intent(getActivity(), g_ziye.class);
                 startActivity(intent);
             }
         });
         w_btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                Intent intent = new Intent(getActivity(), g_ziye.class);
+                startActivity(intent);
+            }
+        });
+        w_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_ziye.class);
+                startActivity(intent);
+            }
+        });
+        w_btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_ziye.class);
+                startActivity(intent);
+            }
+        });
+        w_btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_ziye.class);
                 startActivity(intent);
             }
         });

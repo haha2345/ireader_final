@@ -86,10 +86,10 @@ public class w_main_pageActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {//菜单的点击事件
         switch (item.getItemId()){
             case R.id.w_menu_item1:
-                Toast.makeText(this,"item1",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"正在搜索目录。。。",Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(this,w_list_Activity.class);
                 startActivity(intent);
                 break;

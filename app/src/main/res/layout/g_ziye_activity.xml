@@ -96,7 +96,7 @@
                     android:layout_height="match_parent"
                     android:background="@drawable/g_button1"
                     android:layout_marginLeft="30dp"
-
+                    android:id="@+id/g_btn1"
                     android:textColor="#FFFFFF"
                     android:text="开始阅读" />
 
