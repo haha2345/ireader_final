@@ -9,24 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".g_resou">
-
-        </activity>
+        <activity android:name=".g_resou3" />
+        <activity android:name=".g_resou2" />
+        <activity android:name=".g_fenlei"></activity>
+        <activity android:name=".g_feilei" />
+        <activity android:name=".g_ziye" />
+        <activity android:name=".g_resou" />
         <activity android:name=".g_grid" />
-        <activity android:name=".g_item"></activity>
+        <activity android:name=".g_item" />
         <activity android:name=".g_custom">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
-        <activity android:name=".g_search">
+        <activity android:name=".g_search" />
+        <activity android:name=".g_leibiao">
+
+
+
 
         </activity>
-
     </application>
 
 </manifest>

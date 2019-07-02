@@ -10,8 +10,8 @@
     <!--<solid android:color="@color/colorPrimary" />-->
     <!-- 设置边框颜色 -->
     <!--<stroke android:width="2dp" android:color="@color/colorAccent"/>-->
-   <gradient
-        android:startColor="#fff5ee"
+      <gradient
+        android:endColor="#1296db"
         />
 
 

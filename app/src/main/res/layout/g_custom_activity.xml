@@ -6,7 +6,9 @@
     android:layout_height="wrap_content"
     tools:context=".g_custom"
 
-    android:padding="10dp"
+
+    android:id="@+id/g_scroll2"
+    android:padding="1dp"
     android:orientation="vertical"
     >
 <LinearLayout
@@ -14,6 +16,31 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/bg"
+        >
+        <ImageView
+            android:id="@+id/g_fanhui"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:src="@drawable/bac"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="5sp"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="60dp"
+        android:text="排行榜"
+
+        />
+
+    </FrameLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,6 +48,7 @@
         android:textSize="20dp"/>
     <FrameLayout
 
+        android:id="@+id/g_fram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -33,19 +61,21 @@
         android:layout_gravity="left">
     </ImageView>
 
-        <Button
+        <TextView
             android:id="@+id/g_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
             android:text="追书最热帮Top1"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
             />
     </FrameLayout>
     <FrameLayout
 
+        android:id="@+id/g_frame2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -57,18 +87,22 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="好评榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+           />
     </FrameLayout>
 
     <FrameLayout
 
+        android:id="@+id/g_frame3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -80,14 +114,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="热搜榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+           />
     </FrameLayout>
 
     <FrameLayout
@@ -103,37 +140,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="本周潜力榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
-    </FrameLayout>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
 
-    <FrameLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:padding="5dp"
-            android:src="@drawable/abf"
-            android:layout_gravity="left">
-        </ImageView>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="读者保存率"
-            android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:textSize="14sp"
+            />
     </FrameLayout>
 
     <FrameLayout
@@ -149,14 +166,43 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
+            android:text="读者保存率"
+            android:textColor="#00f"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:src="@drawable/abf"
+            android:layout_gravity="left">
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
             android:text="追书完结版"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
     </FrameLayout>
 
     <FrameLayout
@@ -172,14 +218,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="VIP排行榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+          />
     </FrameLayout>
     <FrameLayout
 
@@ -194,14 +243,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="别人家的排行榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+           />
     </FrameLayout>
     <TextView
         android:layout_width="match_parent"
@@ -222,15 +274,18 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="追书最热帮Top1"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+
             />
     </FrameLayout>
     <FrameLayout
@@ -246,14 +301,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="好评榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
     </FrameLayout>
 
     <FrameLayout
@@ -269,14 +327,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="热搜榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+           />
     </FrameLayout>
 
     <FrameLayout
@@ -292,14 +353,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="本周潜力榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+           />
     </FrameLayout>
 
     <FrameLayout
@@ -315,14 +379,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="读者保存率"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
     </FrameLayout>
 
     <FrameLayout
@@ -338,14 +405,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="追书完结版"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
     </FrameLayout>
 
     <FrameLayout
@@ -361,14 +431,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="VIP排行榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
     </FrameLayout>
     <FrameLayout
 
@@ -383,14 +456,17 @@
             android:layout_gravity="left">
         </ImageView>
 
-        <Button
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+
             android:text="别人家的排行榜"
             android:textColor="#00f"
-            android:textSize="24sp"
-            android:background="@drawable/bg"/>
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="15sp"
+
+            android:textSize="14sp"
+            />
     </FrameLayout>
 </LinearLayout>
 </ScrollView>

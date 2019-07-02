@@ -42,7 +42,10 @@
             android:text="换一批"
             />
     </FrameLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFFFFF"/>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -105,7 +108,10 @@
             />
     </FrameLayout>
 
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFFFFF"/>
    <TextView
     android:layout_width="match_parent"
     android:layout_height="25dp"
