@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ireader">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,10 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".w_detailActivity"
-            android:label="@string/title_activity_w_detail"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".w_main_pageActivity"
             android:label="@string/title_activity_w_main_page">
@@ -22,6 +21,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".w_list_Activity"></activity>
+        <activity android:name=".w_open_local_file_Activity" >
+
+        </activity>
+        <activity
+            android:name="com.bifan.txtreaderlib.ui.HwTxtPlayActivity"
+            android:theme="@style/HwTxtFullScreen">
+            <intent-filter>
+                <data android:scheme="txt" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".w_detailActivity"
+            android:label="@string/title_activity_w_detail"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".g_search">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +53,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MoreDisplayActivity" />
     </application>
 
 </manifest>

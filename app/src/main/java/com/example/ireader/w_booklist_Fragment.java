@@ -2,17 +2,23 @@ package com.example.ireader;
 
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.Toast;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 
 /**
@@ -26,6 +32,7 @@ public class w_booklist_Fragment extends Fragment {
     Button w_btn4;
     Button w_btn5;
     Button w_btn6;
+    Button w_2readBtn;
 
 
     public w_booklist_Fragment() {
@@ -68,6 +75,15 @@ public class w_booklist_Fragment extends Fragment {
                 startActivity(intent);
             }
         });
+        w_2readBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent=new Intent(getActivity(),w_open_local_file_Activity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
@@ -79,8 +95,10 @@ public class w_booklist_Fragment extends Fragment {
         w_btn4 = getActivity().findViewById(R.id.w_book_btn4);
         w_btn5 = getActivity().findViewById(R.id.w_book_btn5);
         w_btn6 = getActivity().findViewById(R.id.w_book_btn6);
+        w_2readBtn=getActivity().findViewById(R.id.w_btn2read);
 
     }
+
 
 }
 

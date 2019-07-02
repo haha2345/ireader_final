@@ -1,5 +1,6 @@
 package com.example.ireader;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -89,6 +90,8 @@ public class w_main_pageActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.w_menu_item1:
                 Toast.makeText(this,"item1",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(this,w_list_Activity.class);
+                startActivity(intent);
                 break;
             case R.id.w_menu_item2:
                 Toast.makeText(this,"item2",Toast.LENGTH_SHORT).show();
