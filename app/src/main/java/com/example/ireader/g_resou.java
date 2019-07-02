@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 
 public class g_resou extends AppCompatActivity {
@@ -14,7 +15,13 @@ public class g_resou extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
+
         setContentView(R.layout.g_resou_acticity);
+
+
 
 
         ScrollView scrollView=(ScrollView)findViewById(R.id.g_scroll1);
@@ -29,6 +36,7 @@ public class g_resou extends AppCompatActivity {
 
             }
         });
+
 
 
     }

@@ -17,30 +17,7 @@
     android:orientation="vertical"
     >
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:background="@drawable/bg"
-        >
-        <ImageView
-            android:id="@+id/g_fanhui"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
 
-            android:src="@drawable/bac"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:layout_marginTop="5sp"
-        android:textSize="30dp"
-        android:textColor="#FFFFFF"
-        android:layout_marginLeft="60dp"
-        android:text="排行榜"
-
-        />
-
-    </FrameLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

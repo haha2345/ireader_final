@@ -28,6 +28,7 @@ public class g_custom extends AppCompatActivity {
 
 
 
+
         frame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

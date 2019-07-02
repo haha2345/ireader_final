@@ -17,6 +17,7 @@
     android:background="@color/backcolor">
 
 
+
     <FrameLayout
         android:background="@drawable/g_framelayout1"
         android:id="@+id/g_fragmet"

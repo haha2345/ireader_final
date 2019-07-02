@@ -11,7 +11,8 @@
     <!-- 设置边框颜色 -->
     <!--<stroke android:width="2dp" android:color="@color/colorAccent"/>-->
       <gradient
-        android:endColor="#1296db"
+          android:endColor="#000CCD"
+          android:startColor="#0000CD"
         />
 
 
