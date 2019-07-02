@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Ireader</string>
+    <string name="hello">aaa</string>
     <string name="title_activity_w_main_page">追书神器</string>
     <string name="title_home">书架</string>
     <string name="title_dashboard">社区</string>
