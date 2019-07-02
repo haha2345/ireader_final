@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="10sp"
+
+    tools:context=".g_leibiao">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50sp"
+        android:text="全部"
+        android:textColor="#F5684A"
+        android:textSize="15sp" />
+    <Spinner
+
+        android:id="@+id/spin_one"
+        android:layout_width="60dp"
+        android:layout_height="64dp" />
+
+    <TextView
+        android:layout_marginLeft="90sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="默认排序"
+        android:textColor="#F5684A"
+        android:textSize="15sp" />
+    <Spinner
+        android:id="@+id/spin_two"
+        android:layout_width="60dp"
+        android:layout_height="64dp" />
+
+
+</LinearLayout>

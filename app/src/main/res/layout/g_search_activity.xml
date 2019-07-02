@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="15dp"
+    android:orientation="vertical"
+
     tools:context=".g_search">
 
     <SearchView
@@ -12,14 +13,119 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:iconifiedByDefault="false"
-        android:queryHint="搜索..">
+        android:queryHint="搜索.." />
 
-        <ListView
-            android:id="@+id/Listviewa"
+    <ListView
+        android:id="@+id/Listviewa"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+         />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1"></ListView>
-    </SearchView>
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="left"
+            android:text="大家都在搜" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_gravity="right"
+
+            android:background="@drawable/bg"
+            android:text="换一批"
+            />
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFFFFF"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="重生之都市"
+            android:background="#FFF68F"
+            android:textColor="#FFFFFF"
+
+            android:layout_gravity="left"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="刑警荣耀"
+            android:layout_gravity="center"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="我的老妈是土豪"
+            android:layout_gravity="right"
+            android:background="#FF8247"
+            android:textColor="#FFFFFF"
+
+            />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="医武兵王"
+            android:layout_gravity="left"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="大主宰"
+
+            android:layout_gravity="center"
+            android:background="#A52A2A"
+            android:textColor="#FFFFFF"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="顶级神豪"
+            android:layout_gravity="right"
+            android:background="#57FF94"
+            android:textColor="#FFFFFF"
+
+            />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#FFFFFF"/>
+   <TextView
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:text="搜索历史"/>
+
+
+    <GridView
+        android:id="@+id/g_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:numColumns="3"
+        android:verticalSpacing="0.1dp"/>
 
 
 </LinearLayout>

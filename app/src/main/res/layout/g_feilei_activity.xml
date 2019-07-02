@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".g_feilei">
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/g_color1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/g_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+
+        android:layout_marginBottom="5dp"
+        android:id="@+id/g_text2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+       />
+    </LinearLayout>
+
+</FrameLayout>
+
+</LinearLayout>
