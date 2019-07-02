@@ -9,20 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".g_search">
+        <activity android:name=".c_xiugaiActivity"></activity>
+        <activity android:name=".c_xggrActivity" />
+        <activity android:name=".c_grActivity" />
+        <activity android:name=".c_configActivity" />
+        <activity android:name=".c_titleActivity" />
+        <activity android:name=".c_registerActivity" />
+        <activity android:name=".c_loginActivity" />
+        <activity android:name=".c_indexActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".g_search" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:state_pressed="false">//没有选中时候的样式
+        <shape>
+            <solid android:color="#ff4500" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">//选中时候的样式
+        <shape>
+            <solid android:color="#c0c0c0"></solid>
+            <corners android:radius="10dp"></corners>
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c_xiugaiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/activity_c_title"></include>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:text="修改个人信息"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="昵称"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_name"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入昵称"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="性别"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_sex"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入性别"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="生日"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_shengri"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入生日"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="电话"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_dianhua"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入电话"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="邮箱"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_email"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="QQ"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_qq"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入QQ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="18dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="微信"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="20dp"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:id="@+id/c_et_weixin"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="18dp"
+                    android:hint="请输入微信"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <View  android:layout_height="1px"
+            android:layout_width="match_parent"
+            android:background="#a3a3a3"></View>
+
+        <FrameLayout
+            android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/c_btn_bc"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="75dp"
+                android:layout_width="265dp"
+                android:text="保存信息"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/c_button1"
+                android:layout_height="50dp" />
+        </FrameLayout>
+
+        <View  android:layout_height="30px"
+            android:layout_width="match_parent"
+            android:background="#ffffff"></View>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
