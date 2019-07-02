@@ -55,6 +55,7 @@ public class c_loginActivity extends AppCompatActivity {
             Intent intent=new Intent(c_loginActivity.this,w_main_pageActivity.class);
             intent.putExtra("uname",name);
             startActivity(intent);
+            finish();
         }
 
         Intent intent =getIntent();
@@ -110,8 +111,8 @@ public class c_loginActivity extends AppCompatActivity {
                     editor.putInt("log",1);
                     editor.putString("name",uname);
                     editor.apply();
-
                     Toast.makeText(c_loginActivity.this,"登陆成功",Toast.LENGTH_SHORT).show();
+                    finish();
                     return;
                 }
                 else if(TextUtils.isEmpty(uname))
@@ -128,6 +129,7 @@ public class c_loginActivity extends AppCompatActivity {
                     Intent intent=new Intent(c_loginActivity.this,w_main_pageActivity.class);
                     intent.putExtra("uname",uname);
                     startActivity(intent);
+                    finish();
                     return;
                 }else if(upwd!=null && upwd.equals(gpwd))
                 {

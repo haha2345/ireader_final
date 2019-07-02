@@ -1,5 +1,6 @@
 package com.example.ireader;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -15,6 +16,10 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 public class w_main_pageActivity extends AppCompatActivity {
     private TextView mTextMessage;
     private  w_booklist_Fragment bookListFragment;
@@ -22,7 +27,6 @@ public class w_main_pageActivity extends AppCompatActivity {
     private w_find_Fragment findFragment;
     private Fragment[] fragments;
     private int lastfragment;//用于记录上个选择的Fragment
-
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -71,6 +75,10 @@ public class w_main_pageActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_w_main_page);
+
+
+
+
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         initFragment();
@@ -98,12 +106,16 @@ public class w_main_pageActivity extends AppCompatActivity {
                 startActivity(intent1);
                 break;
             case R.id.w_menu_item3:
-                Intent intent2=new Intent(this,w_list_Activity.class);
+                Intent intent2=new Intent(this,x_chuan.class);
                 startActivity(intent2);
                 break;
             case R.id.w_menu_item4:
                 Intent intent3=new Intent(this,c_configActivity.class);
                 startActivity(intent3);
+                break;
+            case R.id.w_menu_item5:
+                Intent intent4=new Intent(this,w_detailActivity.class);
+                startActivity(intent4);
                 break;
                 default:
 

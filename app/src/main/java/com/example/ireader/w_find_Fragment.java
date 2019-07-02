@@ -47,11 +47,26 @@ public class w_find_Fragment extends Fragment {
                 startActivity(intent);
             }
         });
+        w_btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), x_web2_Activity.class);
+                startActivity(intent);
+            }
+        });
 
         w_btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), g_fenlei.class);
+                startActivity(intent);
+            }
+        });
+        //有声小说
+        w_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), x_web1_Activity.class);
                 startActivity(intent);
             }
         });

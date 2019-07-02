@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+       android:layout_marginLeft="80dp"
+        android:src="@drawable/x_chuanshu"
+        android:layout_height="200dp"
+        android:layout_width="200dp"/>
+    <TextView
+        android:layout_marginLeft="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入电脑的ip地址"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/x_shuru"
+        android:layout_marginLeft="80dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入正确的ip"/>
+
+    <ImageButton
+        android:id="@+id/x_kaishi"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/x_chuanshu_kaishi"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        />
+
+</LinearLayout>

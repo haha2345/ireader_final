@@ -5,6 +5,7 @@
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,14 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".g_huadong3"></activity>
-        <activity android:name=".g_huadong2" />
-        <activity android:name=".g_huadong1" />
+        <activity android:name=".x_web2_Activity"></activity>
+        <activity android:name=".x_web1_Activity" />
         <activity android:name=".x_zhonghepinglun3" />
         <activity android:name=".x_zhonghepinglun2" />
         <activity android:name=".x_zhonghepinglun" />
         <activity android:name=".x_zhonghepinglun1" />
-        <activity android:name=".zhonghepinglun" />
         <activity android:name=".x_shuping3" />
         <activity android:name=".x_shuping2" />
         <activity android:name=".x_shuping1" />
@@ -74,7 +73,7 @@
             android:name=".w_detailActivity"
             android:label="@string/title_activity_w_detail"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".x_chuan" />
     </application>
 
 </manifest>
