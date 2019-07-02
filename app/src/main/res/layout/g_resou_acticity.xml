@@ -15,6 +15,18 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@color/backcolor">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5sp"
+        >
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/g_hua"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        </androidx.viewpager.widget.ViewPager>
+    </FrameLayout>
+
 
 
 

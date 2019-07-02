@@ -11,5 +11,4 @@
         android:scaleType="centerCrop"
         android:src="@drawable/g_tiao2"/>
 
-
 </LinearLayout>
