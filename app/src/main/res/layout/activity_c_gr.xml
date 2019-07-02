@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".c_grActivity">
+
+    <include layout="@layout/activity_c_title"></include>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/c_tv_name"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="用户"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/c_i_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/c_config"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="90dp"
+            android:text="设置"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:layout_height="60dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/c_01"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/c_02"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/c_03"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/c_04"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_1"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="我的账户"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_2"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="我的VIP"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#ffffff"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_3"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="我的消息"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_4"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="邀请好友立送3元，首邀再送2元"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_5"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="任务中心"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_6"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="我的等级"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_8"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="阅读历史"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:background="@drawable/c_9"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:text="朗读语音包"
+                android:textSize="18dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_marginLeft="25dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/c_4"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:text="意见反馈"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

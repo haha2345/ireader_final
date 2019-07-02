@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".c_configActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/activity_c_title"></include>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:text="设置"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="邀请码"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="书架排序"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="更新通知"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="通知角标"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="省流量模式（无头像）"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:text="更多"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/c_tv_qchc"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="清理网络缓存"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="朗读权限设置"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="加入我们"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="用户协议"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="隐私协议"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:text="隐私协议"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:layout_height="50dp" />
+    </FrameLayout>
+    <View  android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#a3a3a3"></View>
+    <FrameLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/c_btn_end"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="75dp"
+            android:layout_width="265dp"
+            android:text="退出登录"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/c_button1"
+            android:layout_height="50dp" />
+    </FrameLayout>
+
+    <View  android:layout_height="30px"
+        android:layout_width="match_parent"
+        android:background="#ffffff"></View>
+</LinearLayout>
+
+
+</ScrollView>
