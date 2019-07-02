@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="0dp"
+
+
+    android:id="@+id/g_scroll1"
+    android:orientation="vertical"
+    tools:context=".g_resou">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/backcolor">
+
+
+
+
+
+
+
+        <FrameLayout
+            android:background="@drawable/g_framelayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            >
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abq"
+                android:layout_marginLeft="5dp"/>
+            <LinearLayout
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="最强特种兵"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="南阳|未知"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="他是各国精锐特种兵闻风丧胆的是挖无法让让我......"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="58953人在追|40.28%读者保存"
+                    android:layout_marginLeft="110dp"/>
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:background="@drawable/g_framelayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            >
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abw"
+                android:layout_marginLeft="5dp"/>
+            <LinearLayout
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="蒹葭采采"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="复奇|未知"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="本是将门千金，以纸婚书造化弄人爱疯法尔范....."
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="35780人在追|61.57%读者保存"
+                    android:layout_marginLeft="110dp"/>
+
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:background="@drawable/g_framelayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            >
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abr"
+                android:layout_marginLeft="5dp"/>
+            <LinearLayout
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="傲世武皇"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="曾今拥有的方向感|未知"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="为入武道宗门求药救父，江守连拜五十山门.."
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="22355人在追|55.87%读者保存"
+                    android:layout_marginLeft="110dp"/>
+
+
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout
+            android:background="@drawable/g_framelayout1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            >
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abj"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="人鱼之歌"
+                        android:layout_marginLeft="110dp"/>
+                    `
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="手冢亚美|未知"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="这是伊丽莎白一世统治下的黄金时期.."
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="63452人在追|54.24%读者保存"
+                    android:layout_marginLeft="110dp"/>
+
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+        <FrameLayout
+            android:background="@drawable/g_framelayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginLeft="10sp"
+            >
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/g_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abi"
+                android:layout_marginLeft="10dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="5sp"
+                android:orientation="vertical" >
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="逍遥派"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="白马出淤泥|未知"
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="一本《南华经》，一本《逍遥游》，引出.."
+                    android:layout_marginLeft="110dp"/>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="59987人在追|53.24%读者保存"
+                    android:layout_marginLeft="110dp"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
