@@ -22,6 +22,7 @@ public class g_search extends AppCompatActivity {
 
     //搜索
     private SearchView  mSearch=null;
+
     private ListView mListview=null;
     private String[] mDates={"重生都市","刑警荣耀","遮天"};
 
@@ -40,7 +41,7 @@ public class g_search extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.g_search_activity);
+        //setContentView(R.layout.g_search_activity);
 
        //搜索
         mSearch=(SearchView)findViewById(R.id.searchvied);
