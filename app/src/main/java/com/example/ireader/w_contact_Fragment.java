@@ -1,6 +1,7 @@
 package com.example.ireader;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -39,6 +40,20 @@ public class w_contact_Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {//调用这个
         super.onActivityCreated(savedInstanceState);
         init();
+        w_btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getActivity(),x_zhonghepinglun.class);
+                startActivity(intent);
+            }
+        });
+        w_btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getActivity(),x_shuping.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void init(){
