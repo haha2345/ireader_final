@@ -28,6 +28,9 @@ public class c_configActivity extends AppCompatActivity {
         c_btn_end.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SharedPreferences.Editor editor =getSharedPreferences("data2",MODE_PRIVATE).edit();
+                editor.putInt("log",0);
+                editor.apply();
                 Intent intent =new Intent(c_configActivity.this,c_loginActivity.class);
                 startActivity(intent);
                 finish();
@@ -54,15 +57,19 @@ public class c_configActivity extends AppCompatActivity {
                         SharedPreferences sp = getSharedPreferences("deta",MODE_PRIVATE);
                         SharedPreferences.Editor editor = sp.edit();
                         editor.clear();
-                        editor.apply();
-                        SharedPreferences sp2 = getSharedPreferences("deta",MODE_PRIVATE);
+                        editor.commit();
+                        SharedPreferences sp2 = getSharedPreferences("deta2",MODE_PRIVATE);
                         SharedPreferences.Editor editor2 = sp2.edit();
                         editor2.clear();
-                        editor2.apply();
-                        SharedPreferences sp3 = getSharedPreferences("deta",MODE_PRIVATE);
+                        editor2.commit();
+                        SharedPreferences sp3 = getSharedPreferences("deta3",MODE_PRIVATE);
                         SharedPreferences.Editor editor3 = sp3.edit();
                         editor3.clear();
-                        editor3.apply();
+                        editor3.commit();
+
+                        SharedPreferences.Editor editor4 =getSharedPreferences("data2",MODE_PRIVATE).edit();
+                        editor4.putInt("log",0);
+                        editor4.apply();
                     }
                 });
                 dialog.setNegativeButton("否", new DialogInterface.OnClickListener() {

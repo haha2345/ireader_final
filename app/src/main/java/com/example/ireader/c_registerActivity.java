@@ -81,6 +81,11 @@ public class c_registerActivity extends AppCompatActivity {
                     editor.putString("name", uname);
                     editor.putString("pwd", upwd);
                     editor.apply();
+
+                    SharedPreferences.Editor editor2 = getSharedPreferences("data2", MODE_PRIVATE).edit();
+                    editor2.putInt("log",0);
+                    editor2.apply();
+
                        Intent intent=new Intent(c_registerActivity.this,c_loginActivity.class);
                        intent.putExtra("uname",uname);
                        startActivity(intent);

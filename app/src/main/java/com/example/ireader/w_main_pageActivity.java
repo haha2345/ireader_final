@@ -94,13 +94,16 @@ public class w_main_pageActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.w_menu_item2:
-                Toast.makeText(this,"item2",Toast.LENGTH_SHORT).show();
+                Intent intent1=new Intent(this,c_grActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.w_menu_item3:
-                Toast.makeText(this,"item3",Toast.LENGTH_SHORT).show();
+                Intent intent2=new Intent(this,w_list_Activity.class);
+                startActivity(intent2);
                 break;
             case R.id.w_menu_item4:
-                Toast.makeText(this,"item4",Toast.LENGTH_SHORT).show();
+                Intent intent3=new Intent(this,c_configActivity.class);
+                startActivity(intent3);
                 break;
                 default:
 

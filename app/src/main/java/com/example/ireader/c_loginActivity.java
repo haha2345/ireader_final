@@ -52,7 +52,7 @@ public class c_loginActivity extends AppCompatActivity {
         int log =sp2.getInt("log",0);
         String name =sp2.getString("name","");
         if(log==1){
-            Intent intent=new Intent(c_loginActivity.this,c_grActivity.class);
+            Intent intent=new Intent(c_loginActivity.this,w_main_pageActivity.class);
             intent.putExtra("uname",name);
             startActivity(intent);
         }
@@ -102,7 +102,7 @@ public class c_loginActivity extends AppCompatActivity {
                 if(uname.equals("admin") && upwd.equals("admin"))
                 {
 
-                    Intent intent=new Intent(c_loginActivity.this,c_grActivity.class);
+                    Intent intent=new Intent(c_loginActivity.this,w_main_pageActivity.class);
                     intent.putExtra("uname",uname);
                     startActivity(intent);
 
@@ -125,7 +125,7 @@ public class c_loginActivity extends AppCompatActivity {
                 }else if(uname.equals(gname) && upwd .equals(gpwd))
                 {
                     Toast.makeText(c_loginActivity.this,"登陆成功",Toast.LENGTH_SHORT).show();
-                    Intent intent=new Intent(c_loginActivity.this,c_grActivity.class);
+                    Intent intent=new Intent(c_loginActivity.this,w_main_pageActivity.class);
                     intent.putExtra("uname",uname);
                     startActivity(intent);
                     return;

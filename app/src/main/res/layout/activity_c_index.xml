@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/c_index"
+    android:background="@mipmap/c_index"
     android:gravity="right"
     tools:context=".c_indexActivity">
         <TextView

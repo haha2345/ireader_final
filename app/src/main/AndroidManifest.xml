@@ -21,7 +21,13 @@
         <activity android:name=".c_titleActivity" />
         <activity android:name=".c_registerActivity" />
         <activity android:name=".c_loginActivity" />
-        <activity android:name=".c_indexActivity"/>
+        <activity android:name=".c_indexActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <activity android:name=".g_resou3" />
         <activity android:name=".g_resou2" />
@@ -34,23 +40,15 @@
         <activity android:name=".g_custom"/>
         <activity android:name=".g_search"/>
         <activity android:name=".g_leibiao"/>
+        <!--首页-->
         <activity
             android:name=".w_main_pageActivity"
             android:label="@string/title_activity_w_main_page">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
 
-
-
-
-
         <activity android:name=".w_list_Activity"></activity>
         <activity android:name=".w_open_local_file_Activity" >
-
         </activity>
         <activity
             android:name="com.bifan.txtreaderlib.ui.HwTxtPlayActivity"
@@ -66,15 +64,11 @@
             android:name=".w_detailActivity"
             android:label="@string/title_activity_w_detail"
             android:theme="@style/AppTheme.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".MainActivity" />
-        <activity android:name=".MoreDisplayActivity" />
+
     </application>
 
 </manifest>
