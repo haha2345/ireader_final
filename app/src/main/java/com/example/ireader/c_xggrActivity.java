@@ -76,6 +76,7 @@ public class c_xggrActivity extends AppCompatActivity {
                 intent.putExtra("qq",qq1);
                 intent.putExtra("weixin",weixin1);
                 startActivity(intent);
+                finish();
             }
         });
 

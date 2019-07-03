@@ -47,7 +47,7 @@ public class g_search extends AppCompatActivity {
         mSearch=(SearchView)findViewById(R.id.searchvied);
         mListview=(ListView)findViewById(R.id.Listviewa);
         mListview.setAdapter(new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, mDates));
+                android.R.layout.simple_list_item_1,mDates ));
         mListview.setTextFilterEnabled(true);
 
         //获取页面组件

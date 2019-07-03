@@ -1,14 +1,15 @@
 package com.example.ireader;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class g_huadong1 extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class x_shuhuang1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.g_huadong1_activity);
+        setContentView(R.layout.activity_x_shuhuang1);
+
     }
 }

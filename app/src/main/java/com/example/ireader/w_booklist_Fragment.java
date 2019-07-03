@@ -20,27 +20,11 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
-
-
-import android.view.LayoutInflater;
-import android.view.View;
-
-
-import android.os.Bundle;
-import android.view.Window;
-import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class w_booklist_Fragment extends Fragment {
-
-    private ViewPager viewPager;
-    private ArrayList<View> pageview;
 
     Button w_btn1;
     Button w_btn2;
@@ -49,6 +33,7 @@ public class w_booklist_Fragment extends Fragment {
     Button w_btn5;
     Button w_btn6;
     Button w_2readBtn;
+
 
     public w_booklist_Fragment() {
         // Required empty public constructor
@@ -60,78 +45,54 @@ public class w_booklist_Fragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_w_booklist_, container, false);
 
+
         return view;
-
-
-
-
-
-
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
-
-
         super.onActivityCreated(savedInstanceState);
-        getActivity().setContentView(R.layout.fragment_w_booklist_);
-        super.onActivityCreated(savedInstanceState);
-        viewPager=getActivity().findViewById(R.id.g_hua);
-
-        LayoutInflater inflater=getLayoutInflater();
-        View view1 = inflater.inflate(R.layout.g_huadong1_activity, null);
-        View view2 = ((LayoutInflater) inflater).inflate(R.layout.g_huadong2_activity, null);
-        View view3 = inflater.inflate(R.layout.g_huadong3_activity, null);
-
-        pageview =new ArrayList<View>();
-        pageview.add(view1);
-        pageview.add(view2);
-        pageview.add(view3);
-
-        PagerAdapter mPagerAdapter=new PagerAdapter() {
-            @Override
-            public int getCount() {
-                return pageview.size();
-            }
-
-            @Override
-            public boolean isViewFromObject(@NonNull View arg0, @NonNull Object arg1) {
-                return arg0==arg1;
-            }
-            public void destroyItem(View arg0, int arg1, Object arg2) {
-                ((ViewPager) arg0).removeView(pageview.get(arg1));
-            }
-            public Object instantiateItem(View arg0, int arg1){
-                ((ViewPager)arg0).addView(pageview.get(arg1));
-                return pageview.get(arg1);
-            }
-        };
-        viewPager.setAdapter(mPagerAdapter);
-
-
-
-
-
         init();
 
         w_btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                Intent intent = new Intent(getActivity(), g_ziye.class);
                 startActivity(intent);
             }
         });
         w_btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                Intent intent = new Intent(getActivity(), g_ziye.class);
                 startActivity(intent);
             }
         });
         w_btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), w_detailActivity.class);
+                Intent intent = new Intent(getActivity(), g_ziye.class);
+                startActivity(intent);
+            }
+        });
+        w_btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_ziye.class);
+                startActivity(intent);
+            }
+        });
+        w_btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_ziye.class);
+                startActivity(intent);
+            }
+        });
+        w_btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), g_ziye.class);
                 startActivity(intent);
             }
         });

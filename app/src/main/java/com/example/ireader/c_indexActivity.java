@@ -37,7 +37,9 @@ public class c_indexActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(c_indexActivity.this,c_loginActivity.class);
                 startActivityForResult(intent, 1);
+                finish();
             }
         });
+
     }
 }

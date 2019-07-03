@@ -78,6 +78,7 @@ public class c_xiugaiActivity extends AppCompatActivity {
 
                 Intent intent1 =new Intent(c_xiugaiActivity.this,c_xggrActivity.class);
                 startActivity(intent1);
+                finish();
 
             }
         });

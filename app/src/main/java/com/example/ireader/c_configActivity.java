@@ -3,6 +3,7 @@ package com.example.ireader;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,11 +12,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 public class c_configActivity extends AppCompatActivity {
 
     private Button c_btn_end;
     private TextView c_tv_back;
     private TextView c_tv_qchc;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +38,9 @@ public class c_configActivity extends AppCompatActivity {
                 editor.putInt("log",0);
                 editor.apply();
                 Intent intent =new Intent(c_configActivity.this,c_loginActivity.class);
+                intent.setFlags(intent.FLAG_ACTIVITY_CLEAR_TASK|intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
+
                 finish();
             }
         });

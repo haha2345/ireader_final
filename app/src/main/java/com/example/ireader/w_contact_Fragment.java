@@ -54,6 +54,13 @@ public class w_contact_Fragment extends Fragment {
                 startActivity(intent);
             }
         });
+        w_btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(getActivity(),x_shuhuang.class);
+                startActivity(intent);
+            }
+        });
     }
 
     private void init(){
