@@ -47,13 +47,30 @@ public class c_xggrActivity extends AppCompatActivity {
         String qq =sp.getString("qq","");
         String weixin =sp.getString("weixin","");
 
-        c_tv_name.setText(name);
-        c_tv_sex.setText(sex);
-        c_tv_shengri.setText(shengri);
-        c_tv_dianhua.setText(dianhua);
-        c_tv_email.setText(email);
-        c_tv_qq.setText(qq);
-        c_tv_weixin.setText(weixin);
+        if(!name.equals("")){
+            c_tv_name.setText(name);
+        }
+        if(!sex.equals("")){
+           c_tv_sex.setText(sex);
+           }
+        if(!shengri.equals("")){
+          c_tv_shengri.setText(shengri);
+         }
+        if(!dianhua.equals("")){
+            c_tv_dianhua.setText(dianhua);
+        }
+        if(!email.equals("")){
+           c_tv_email.setText(email);
+       }
+       if(!qq.equals(""))
+       {
+           c_tv_qq.setText(qq);
+       }
+       if(!weixin.equals(""))
+       {
+           c_tv_weixin.setText(weixin);
+       }
+
 
         c_btn_xg.setOnClickListener(new View.OnClickListener() {
             @Override

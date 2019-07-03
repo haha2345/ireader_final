@@ -21,7 +21,7 @@ public class c_grActivity extends AppCompatActivity {
 
         c_tv_back=(TextView)findViewById(R.id.c_tv_back);
         c_tv_title=(TextView)findViewById(R.id.c_tv_title);
-        c_tv_title.setText("登录");
+        c_tv_title.setText("我的");
 
         c_tv_name =(TextView)findViewById(R.id.c_tv_name);
         Intent intent=getIntent();

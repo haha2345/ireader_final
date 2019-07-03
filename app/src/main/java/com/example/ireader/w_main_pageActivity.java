@@ -77,8 +77,6 @@ public class w_main_pageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_w_main_page);
 
 
-
-
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         initFragment();
@@ -102,7 +100,12 @@ public class w_main_pageActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.w_menu_item2:
+                //huo qu yong hu ming
+                Intent intent5 = getIntent();
+                String name = intent5.getStringExtra("uname");
+
                 Intent intent1=new Intent(this,c_grActivity.class);
+                intent1.putExtra("uname",name);
                 startActivity(intent1);
                 break;
             case R.id.w_menu_item3:
